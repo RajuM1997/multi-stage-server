@@ -45,7 +45,7 @@ const getSingleMarsApplicant = async (req, res, next) => {
 };
 
 const getAllMarsApplicant = async (req, res, next) => {
-  const { ...others } = res.body;
+  const { ...others } = req.query;
   try {
     const marsApplicant = await MarsApplicant.find({ ...others });
     res.status(200).json(marsApplicant);
