@@ -1,4 +1,4 @@
-# Multi-Stage Mars Visit Application Form
+# Multi-Stage Mars Visit Application Form Server
 
 This project serves as the backend API for the Mars visit application. It provides endpoints to manage applicant data and integrates with the frontend application. The API uses Node.js with Express.js for the server-side framework and Mongoose for MongoDB object modeling.
 
