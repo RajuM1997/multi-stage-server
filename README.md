@@ -21,7 +21,9 @@ You need to put cilent and server in same folder like
 multi-stage
 - client
 - server
-then add a file docker-compose.yaml then put those code
+# then add a file docker-compose.yaml then put those code
+
+
 version: '3'
 services:
   front:
